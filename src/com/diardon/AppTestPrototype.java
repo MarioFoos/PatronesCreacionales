@@ -10,7 +10,6 @@ import com.diardon.prototype.Rectangulo;
  * - Clase Rectangulo: Similar a Circulo, implementa Figura y proporciona un constructor de copia. El método clonar() devuelve una nueva instancia de Rectangulo.
  * - Clase principal Main: Crea instancias de Circulo y Rectangulo, las clona y las dibuja para demostrar que las copias tienen las mismas propiedades que los originales.
  */
-
 /**
  * Clase principal para demostrar el uso del patrón Prototype
  */

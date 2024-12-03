@@ -16,8 +16,7 @@ public class Hamburguesa
 	/**
 	 * Constructor privado para asegurarse de que solo se pueda crear usando el
 	 * Builder
-	 * 
-	 * @param builder
+	 * @param builder Builder
 	 */
 	Hamburguesa(HamburguesaBuilder builder)
 	{
@@ -28,8 +27,9 @@ public class Hamburguesa
 		this.queso = builder.queso;
 		this.bacon = builder.bacon;
 	}
-
-	// Método para mostrar la descripción de la hamburguesa
+	/**
+	 *  Método para mostrar la descripción de la hamburguesa
+	 */
 	public void mostrar()
 	{
 		System.out.println("Hamburguesa con pan: " + pan + ", carne: " + carne + (lechuga ? ", lechuga" : "")

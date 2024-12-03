@@ -1,7 +1,7 @@
 package com.diardon.builder;
 
 /**
- * Clase Builder estática
+ * Clase Builder
  */
 @SuppressWarnings("unused")
 public class HamburguesaBuilder
